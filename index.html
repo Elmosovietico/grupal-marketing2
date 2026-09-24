@@ -1,0 +1,1008 @@
+<!-- wp:html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Mente+ | Talleres de salud mental para colegios</title>
+</head>
+<body>
+<div class="salud-mental-landing">
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+.salud-mental-landing {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #243047;
+    background: #f7f9fc;
+    line-height: 1.6;
+}
+
+.salud-mental-landing * {
+    box-sizing: border-box;
+}
+
+.salud-mental-landing .navbar {
+    background: #ffffff;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #edf0f5;
+}
+
+.salud-mental-landing .logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #3978a8;
+}
+
+.salud-mental-landing .nav-cta {
+    background: #3978a8;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.salud-mental-landing .hero {
+    padding: 80px 7%;
+}
+
+.salud-mental-landing .hero-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.salud-mental-landing .tag {
+    display: inline-block;
+    background: #e4f2f5;
+    color: #3978a8;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.salud-mental-landing h1 {
+    font-size: clamp(40px, 5vw, 62px);
+    line-height: 1.08;
+    margin: 0 0 25px;
+    color: #1d2939;
+}
+
+.salud-mental-landing .highlight {
+    color: #3978a8;
+}
+
+.salud-mental-landing .value-prop {
+    font-size: 19px;
+    color: #667085;
+    margin-bottom: 28px;
+    max-width: 600px;
+}
+
+.salud-mental-landing .benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+}
+
+.salud-mental-landing .benefits li {
+    margin-bottom: 12px;
+    color: #344054;
+}
+
+.salud-mental-landing .benefits li::before {
+    content: "✓";
+    color: #3978a8;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.salud-mental-landing .main-cta {
+    display: inline-block;
+    background: #3978a8;
+    color: white;
+    padding: 15px 27px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.salud-mental-landing .form-card {
+    background: white;
+    padding: 38px;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px rgba(35, 50, 70, 0.09);
+}
+
+.salud-mental-landing .form-card h2 {
+    margin: 0 0 10px;
+    font-size: 27px;
+    color: #1d2939;
+}
+
+.salud-mental-landing .form-description {
+    color: #667085;
+    margin-bottom: 25px;
+}
+
+.salud-mental-landing .form-group {
+    margin-bottom: 16px;
+}
+
+.salud-mental-landing label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #344054;
+}
+
+.salud-mental-landing input,
+.salud-mental-landing select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d0d5dd;
+    border-radius: 7px;
+    font-size: 15px;
+    background: white;
+}
+
+.salud-mental-landing input:focus,
+.salud-mental-landing select:focus {
+    outline: none;
+    border-color: #3978a8;
+}
+
+.salud-mental-landing .submit-button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    background: #3978a8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.salud-mental-landing .privacy {
+    text-align: center;
+    font-size: 12px;
+    color: #98a2b3;
+    margin-top: 12px;
+}
+
+.salud-mental-landing .features {
+    background: white;
+    padding: 65px 7%;
+}
+
+.salud-mental-landing .section-title {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+}
+
+.salud-mental-landing .section-title h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #1d2939;
+}
+
+.salud-mental-landing .section-title p {
+    color: #667085;
+}
+
+.salud-mental-landing .features-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.salud-mental-landing .feature {
+    text-align: center;
+    padding: 25px;
+}
+
+.salud-mental-landing .icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.salud-mental-landing .feature h3 {
+    color: #1d2939;
+    margin-bottom: 10px;
+}
+
+.salud-mental-landing .feature p {
+    color: #667085;
+}
+
+.salud-mental-landing .how {
+    padding: 70px 7%;
+    background: #eef6f8;
+}
+
+.salud-mental-landing .how-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.salud-mental-landing .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.salud-mental-landing .step {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.salud-mental-landing .number {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #3978a8;
+    color: white;
+    font-weight: bold;
+}
+
+.salud-mental-landing .footer {
+    text-align: center;
+    padding: 30px;
+    color: #98a2b3;
+    font-size: 13px;
+}
+
+@media (max-width: 800px) {
+
+    .salud-mental-landing .hero {
+        padding: 50px 6%;
+    }
+
+    .salud-mental-landing .hero-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .salud-mental-landing .features-grid,
+    .salud-mental-landing .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .salud-mental-landing h1 {
+        font-size: 42px;
+    }
+
+    .salud-mental-landing .navbar {
+        padding: 18px 6%;
+    }
+
+    .salud-mental-landing .form-card {
+        padding: 28px 22px;
+    }
+}
+
+/* ===== PLANES ===== */
+.salud-mental-landing .plans {
+    padding: 70px 7%;
+    background: #f7f9fc;
+}
+
+.salud-mental-landing .plans-grid {
+    max-width: 1200px;
+    margin: 45px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+    align-items: stretch;
+}
+
+.salud-mental-landing .plan-card {
+    background: white;
+    border: 1px solid #edf0f5;
+    border-radius: 18px;
+    padding: 32px 26px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 45px rgba(35, 50, 70, 0.06);
+}
+
+.salud-mental-landing .plan-card.featured {
+    border: 2px solid #3978a8;
+    box-shadow: 0 20px 50px rgba(57, 120, 168, 0.18);
+    position: relative;
+}
+
+.salud-mental-landing .plan-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #3978a8;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.salud-mental-landing .plan-name {
+    font-size: 21px;
+    font-weight: 800;
+    color: #1d2939;
+    margin: 0 0 6px;
+}
+
+.salud-mental-landing .plan-desc {
+    color: #667085;
+    font-size: 14px;
+    min-height: 42px;
+    margin-bottom: 20px;
+}
+
+.salud-mental-landing .plan-price {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1d2939;
+    line-height: 1;
+}
+
+.salud-mental-landing .plan-price span {
+    font-size: 15px;
+    font-weight: normal;
+    color: #98a2b3;
+}
+
+.salud-mental-landing .plan-price-note {
+    font-size: 13px;
+    color: #98a2b3;
+    margin: 6px 0 22px;
+}
+
+.salud-mental-landing .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px;
+    flex-grow: 1;
+}
+
+.salud-mental-landing .plan-features li {
+    color: #344054;
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.salud-mental-landing .plan-features li::before {
+    content: "✓";
+    color: #3978a8;
+    font-weight: bold;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.salud-mental-landing .plan-cta {
+    display: block;
+    text-align: center;
+    background: #eef6f8;
+    color: #3978a8;
+    padding: 13px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.salud-mental-landing .plan-cta:hover {
+    background: #e4f2f5;
+}
+
+.salud-mental-landing .plan-card.featured .plan-cta {
+    background: #3978a8;
+    color: white;
+}
+
+.salud-mental-landing .plan-card.featured .plan-cta:hover {
+    background: #31688f;
+}
+
+@media (max-width: 1000px) {
+    .salud-mental-landing .plans-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 620px) {
+    .salud-mental-landing .plans-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <div class="logo">
+        Mente+
+    </div>
+
+    <a href="#contacto" class="nav-cta">
+        Solicitar información
+    </a>
+
+</nav>
+
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-container">
+
+        <div>
+
+            <span class="tag">
+                Educación y prevención en salud mental
+            </span>
+
+            <h1>
+                Entreguemos a los estudiantes
+                <span class="highlight">
+                    herramientas para cuidar su bienestar.
+                </span>
+            </h1>
+
+            <p class="value-prop">
+                Talleres y cursos de salud mental para adolescentes
+                de 13 a 17 años, impartidos por profesionales
+                especializados directamente en los colegios.
+            </p>
+
+            <ul class="benefits">
+
+                <li>
+                    Educación sobre salud mental adaptada a adolescentes
+                </li>
+
+                <li>
+                    Herramientas prácticas para el bienestar emocional
+                </li>
+
+                <li>
+                    Profesionales especializados en el área
+                </li>
+
+                <li>
+                    Implementación dentro del colegio
+                </li>
+
+            </ul>
+
+            <a href="#planes" class="main-cta">
+                Quiero conocer el programa →
+            </a>
+
+        </div>
+
+
+        <!-- FORMULARIO -->
+        <div class="form-card" id="contacto">
+
+            <h2>
+                ¿Quieres implementar el programa en tu colegio?
+            </h2>
+
+            <p class="form-description">
+                Déjanos tus datos y te contactaremos para entregarte
+                más información sobre nuestros talleres.
+            </p>
+
+            <form id="lead-form">
+
+                <div class="form-group">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="colegio">
+                        Colegio
+                    </label>
+
+                    <input
+                        type="text"
+                        id="colegio"
+                        name="colegio"
+                        placeholder="Nombre del colegio"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Correo institucional
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="nombre@colegio.cl"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="cargo">
+                        Cargo
+                    </label>
+
+                    <select id="cargo" name="cargo" required>
+
+                        <option value="">
+                            Selecciona una opción
+                        </option>
+
+                        <option value="direccion">
+                            Dirección
+                        </option>
+
+                        <option value="convivencia">
+                            Encargado/a de Convivencia Escolar
+                        </option>
+
+                        <option value="orientacion">
+                            Orientador/a
+                        </option>
+
+                        <option value="psicologia">
+                            Psicólogo/a
+                        </option>
+
+                        <option value="otro">
+                            Otro
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="telefono">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="+56 9 1234 5678"
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    Solicitar información
+                </button>
+
+                <p class="privacy">
+                    Tus datos serán utilizados únicamente
+                    para contactarte sobre el programa.
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BENEFICIOS -->
+<section class="features">
+
+    <div class="section-title">
+
+        <h2>
+            Una solución educativa para los colegios
+        </h2>
+
+        <p>
+            Buscamos reducir la desinformación y entregar a los
+            adolescentes conocimientos y herramientas que puedan
+            aplicar en su vida cotidiana.
+        </p>
+
+    </div>
+
+
+    <div class="features-grid">
+
+        <div class="feature">
+
+            <h3>
+                Educación
+            </h3>
+
+            <p>
+                Contenidos claros y comprensibles sobre salud mental
+                y bienestar emocional.
+            </p>
+
+        </div>
+
+
+        <div class="feature">
+
+            <h3>
+                Herramientas prácticas
+            </h3>
+
+            <p>
+                Los estudiantes aprenden estrategias que pueden
+                utilizar frente a distintas situaciones.
+            </p>
+
+        </div>
+
+
+        <div class="feature">
+
+            <h3>
+                Profesionales especializados
+            </h3>
+
+            <p>
+                Talleres impartidos por profesionales preparados
+                para trabajar con adolescentes.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- COMO FUNCIONA -->
+<section class="how">
+
+    <div class="how-container">
+
+        <div class="section-title">
+
+            <h2>
+                ¿Cómo funciona?
+            </h2>
+
+            <p>
+                Una implementación simple para el colegio.
+            </p>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="number">1</div>
+
+                <h3>
+                    El colegio nos contacta
+                </h3>
+
+                <p>
+                    Conversamos sobre las necesidades y características
+                    de sus estudiantes.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="number">2</div>
+
+                <h3>
+                    Diseñamos el programa
+                </h3>
+
+                <p>
+                    Seleccionamos los contenidos y talleres adecuados
+                    para los estudiantes.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="number">3</div>
+
+                <h3>
+                    Implementamos los talleres
+                </h3>
+
+                <p>
+                    Profesionales especializados realizan las sesiones
+                    directamente en el colegio.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PLANES -->
+<section class="plans" id="planes">
+
+    <div class="section-title">
+
+        <h2>
+            Planes para cada colegio
+        </h2>
+
+        <p>
+            Elige el nivel de acompañamiento que mejor se adapta al
+            tamaño y las necesidades de tu comunidad educativa.
+        </p>
+
+    </div>
+
+
+    <div class="plans-grid">
+
+
+        <!-- BÁSICO -->
+        <div class="plan-card">
+
+            <h3 class="plan-name">Básico</h3>
+
+            <p class="plan-desc">
+                Ideal para colegios que quieren dar sus primeros
+                pasos en prevención.
+            </p>
+
+            <div class="plan-price">
+                $390.000 <span>/año</span>
+            </div>
+
+            <p class="plan-price-note">
+                Por establecimiento
+            </p>
+
+            <ul class="plan-features">
+                <li>4 talleres presenciales al año</li>
+                <li>Hasta 1 nivel educativo</li>
+                <li>Material digital para estudiantes</li>
+                <li>Guía introductoria para docentes</li>
+                <li>Soporte por correo</li>
+            </ul>
+
+            <a href="#contacto" class="plan-cta">
+                Empezar
+            </a>
+
+        </div>
+
+
+        <!-- ESTÁNDAR -->
+        <div class="plan-card">
+
+            <h3 class="plan-name">Estándar</h3>
+
+            <p class="plan-desc">
+                Para colegios que buscan un programa continuo
+                durante el año escolar.
+            </p>
+
+            <div class="plan-price">
+                $890.000 <span>/año</span>
+            </div>
+
+            <p class="plan-price-note">
+                Por establecimiento
+            </p>
+
+            <ul class="plan-features">
+                <li>10 talleres presenciales al año</li>
+                <li>Hasta 3 niveles educativos</li>
+                <li>Material digital para estudiantes</li>
+                <li>Capacitación básica a docentes</li>
+                <li>Encuesta de bienestar inicial</li>
+                <li>Soporte por correo y teléfono</li>
+            </ul>
+
+            <a href="#contacto" class="plan-cta">
+                Elegir Estándar
+            </a>
+
+        </div>
+
+
+        <!-- PREMIUM (destacado) -->
+        <div class="plan-card featured">
+
+            <div class="plan-badge">Más elegido</div>
+
+            <h3 class="plan-name">Premium</h3>
+
+            <p class="plan-desc">
+                Un programa integral con seguimiento a lo largo de
+                todo el año.
+            </p>
+
+            <div class="plan-price">
+                $1.690.000 <span>/año</span>
+            </div>
+
+            <p class="plan-price-note">
+                Por establecimiento
+            </p>
+
+            <ul class="plan-features">
+                <li>20 talleres presenciales al año</li>
+                <li>Todos los niveles educativos</li>
+                <li>Material digital y físico</li>
+                <li>Capacitación completa a docentes</li>
+                <li>Encuestas de bienestar (inicio y cierre)</li>
+                <li>Reporte de resultados por curso</li>
+                <li>Soporte prioritario</li>
+            </ul>
+
+            <a href="#contacto" class="plan-cta">
+                Elegir Premium
+            </a>
+
+        </div>
+
+
+        <!-- PREMIUM+ -->
+        <div class="plan-card">
+
+            <h3 class="plan-name">Premium+</h3>
+
+            <p class="plan-desc">
+                Acompañamiento personalizado para redes de colegios
+                o grandes comunidades.
+            </p>
+
+            <div class="plan-price">
+                A medida
+            </div>
+
+            <p class="plan-price-note">
+                Cotización personalizada
+            </p>
+
+            <ul class="plan-features">
+                <li>Talleres ilimitados al año</li>
+                <li>Programa diseñado a la medida</li>
+                <li>Material personalizado con marca del colegio</li>
+                <li>Capacitación docente avanzada y continua</li>
+                <li>Atención de casos con derivación</li>
+                <li>Reportes trimestrales y panel de seguimiento</li>
+                <li>Profesional de contacto dedicado</li>
+                <li>Soporte 24/7</li>
+            </ul>
+
+            <a href="#contacto" class="plan-cta">
+                Hablar con nosotros
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<div class="footer">
+    Mente+ · Educación y prevención en salud mental
+</div>
+
+</div>
+
+<script>
+document.getElementById('lead-form').addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const form = e.target;
+    const submitBtn = form.querySelector('[type="submit"]');
+    submitBtn.disabled = true;
+
+    const datos = {
+        nombre:   document.getElementById('nombre').value,
+        colegio:  document.getElementById('colegio').value,
+        email:    document.getElementById('email').value,
+        cargo:    document.getElementById('cargo').value,
+        telefono: document.getElementById('telefono').value,
+    };
+
+    try {
+        const res = await fetch('/api/lead-mente', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(datos)
+        });
+        const json = await res.json();
+
+        if (json.ok) {
+            form.style.display = 'none';
+            const mensaje = document.createElement('p');
+            mensaje.textContent = '¡Gracias! Hemos recibido tu información y te contactaremos pronto.';
+            mensaje.style.textAlign = 'center';
+            mensaje.style.color = '#3978a8';
+            mensaje.style.fontWeight = 'bold';
+            form.parentNode.appendChild(mensaje);
+        } else {
+            console.error('Error al enviar:', json.errors);
+            submitBtn.disabled = false;
+        }
+    } catch (err) {
+        console.error('Error de conexión:', err);
+        submitBtn.disabled = false;
+    }
+});
+</script>
+
+</body>
+</html>
+<!-- /wp:html -->
